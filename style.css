@@ -70,7 +70,3 @@
 .blog-footer .text-center a + a {
     color: rgb(230, 255, 6);
 }
-
-.col-md-6:last-of-type .stretched-link {
-    color: cyan;
-}
