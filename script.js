@@ -14,11 +14,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
  // EXTRA Crea con JavaScript la funzionalità per rimuovere il corrispondente elemento padre dal DOM cliccando sul link "Continua a leggere".
 
- let continua1 = document.querySelector(".col-md-6:first-of-type a");
- let continua2 = document.querySelector(".col-md-6:last-of-type a");
+ let continua1 = document.querySelector(".col-md-6:first-of-type .stretched-link");
+ let continua2 = document.querySelector(".col-md-6:last-of-type .stretched-link");
  let post1 = document.querySelector(".row.mb-2:nth-of-type(2) .col-md-6:first-of-type")
  let post2 = document.querySelector(".row.mb-2:nth-of-type(2) .col-md-6:last-of-type")
- console.log(post1);
+ console.log(continua2);
  continua1.addEventListener("click", function() {
      post1.remove()
  })

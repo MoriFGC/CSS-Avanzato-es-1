@@ -71,9 +71,6 @@
     color: rgb(230, 255, 6);
 }
 
-.row.mb-2:nth-of-type(2) .col-md-6:last-of-type {
-    color: rgb(13, 255, 0);
-}
-.col-md-6:last-of-type a {
-    color: red;
+.col-md-6:last-of-type .stretched-link {
+    color: cyan;
 }
