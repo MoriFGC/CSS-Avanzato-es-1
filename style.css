@@ -1,0 +1,79 @@
+/* ESERCIZIO 1) Crea un selettore per selezionare l'<h1> nella sezione "hero", ovvero nel jumbotron */
+
+.display-4 {
+    color: red;
+}
+
+/* ESERCIZIO 2) Crea un selettore per selezionare tutti i figli dell'elemento navbar */
+
+.nav > span {
+    color: lightgreen;
+}
+
+/* ESERCIZIO 3) Crea un selettore per selezionare il link "Continua a leggere" del jumbotron */ 
+
+.lead.mb-0 .font-weight-bold {
+    color: blueviolet;
+}
+
+/* ESERCIZIO 4) Crea un selettore per selezionare il primo blog post */
+
+.blog-main .blog-post:first-of-type {
+    color: aqua;
+}
+
+/* ESERCIZIO 5) Crea un selettore per selezionare l'<hr> del primo blog post e colorarlo di rosso */
+
+ .blog-post hr:first-of-type {
+    background-color: red;
+} 
+
+/* ESERCIZIO 6) Crea un selettore per selezionare i link pari della navbar */
+
+.nav.nav.d-flex.justify-content-between.mb-2 span:nth-of-type(even) {
+    color: blue;
+}
+
+/* ESERCIZIO 7) Crea un selettore per selezionare tutti gli <li> della prima "ordered-list" della sidebar ("Archivio") */
+
+.list-unstyled.mb-0 a {
+    color: rgb(96, 173, 68);
+}
+
+/* ESERCIZIO 8) Crea un selettore per selezionare l'autore del secondo blog post */
+
+.blog-main .blog-post:nth-of-type(2) {
+    color: rgb(227, 23, 190);
+}
+
+/* ESERCIZIO 9) Crea un selettore per selezionare il secondo <li> della lista del terzo blog post */
+
+.blog-main .blog-post:nth-of-type(3) li:nth-of-type(2) {
+    color: rgb(185, 188, 25);
+}
+
+
+/* ESERCIZIO 10) Crea un selettore per selezionare il link "Torna su" che trovi a fondo pagina nell'angolo in basso a destra */
+
+.float-right.mb-3.mr-3 {
+  color: lime;  
+}
+
+/* ESERCIZIO 11) Crea un selettore per selezionare il bottone "Nuovi" che trovi in basso */
+
+.btn.btn-outline-secondary.disabled {
+    color: blueviolet;
+}
+
+/* ESERCIZIO 12) Crea un selettore per selezionare il secondo link del footer */
+
+.blog-footer .text-center a + a {
+    color: rgb(230, 255, 6);
+}
+
+.row.mb-2:nth-of-type(2) .col-md-6:last-of-type {
+    color: rgb(13, 255, 0);
+}
+.col-md-6:last-of-type a {
+    color: red;
+}
